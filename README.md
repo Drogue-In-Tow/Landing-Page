@@ -1,2 +1,2 @@
 # Landing-Page
-This is a Flex-Box project.
+This is a Flexbox project.
