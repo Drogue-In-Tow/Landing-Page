@@ -1,7 +1,7 @@
 html, body {
-   /*margin-left: 50px;
-   margin-right: 50px;*/
-   margin: auto;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-top: auto;
 }
 
 * {
@@ -83,15 +83,26 @@ html, body {
 .top-row {
     margin:auto;
     padding: 25px;
+    font-size: 36px;
 }
 
 .bottom-row {
     display: flex;
     justify-content: center;
 
-    margin-bottom: 75px;
+    margin-bottom: 40px;
 
 }
+
+.bottom-row > div:nth-child(2) {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bottom-row > div:nth-child(3) {
+    margin-right: 20px;
+}
+
 
 .img-1 {
     background-color: blue;
@@ -106,5 +117,24 @@ html, body {
 
 
 /*-----------------------------------*/
+/*Quote*/
+.quote-section {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-style: italic;
+    color: #1F2937;
+    
+    margin: auto;
+}
+
+.credit {
+    margin-left: auto;
+    
+}
 
 /*-----------------------------------*/
