@@ -1,6 +1,7 @@
 html, body {
    /*margin-left: 50px;
    margin-right: 50px;*/
+   margin: auto;
 }
 
 * {
@@ -14,8 +15,8 @@ html, body {
     background-color: #1f2937;
     font-size: 18px;
     color: #E5E7EB;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
     
 }
 
@@ -32,8 +33,9 @@ html, body {
 
 .hero {
     display: flex;
-    padding-left: 50px;
-    padding-right: 50px;
+    /*padding-left: 50px;
+    padding-right: 50px;*/
+    padding: 50px 75px 50px 75px;
     background-color: #1f2937;
     /*justify-content: space-evenly;*/
 
@@ -59,8 +61,49 @@ html, body {
 
 .image-box {
     padding: 100px;
+    background-color: gray;
+}
+
+.button-one {
+    font-size: 24px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    margin-right: auto;
 }
 /*-----------------------------------*/
+/*random*/
+
+.random {
+    /*padding: 50px 75px 50px 75px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-row {
+    margin:auto;
+    padding: 25px;
+}
+
+.bottom-row {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 75px;
+
+}
+
+.img-1 {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+
+.subtext-1 {
+    width: 100px;
+}
+
+
 
 /*-----------------------------------*/
 
